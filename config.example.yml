@@ -1,0 +1,7 @@
+domain: example.com # your domain name
+
+public_ip_check_interval: 30 # interval between checking if the public IP has changed, in seconds
+
+records:
+  - name: blog # subdomain name, eg. 'blog' for 'blog.example.com'
+    type: A # record type, eg. A or AAAA
