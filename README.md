@@ -25,7 +25,7 @@ nano .env
 #### Option A: Docker Compose
 > Assuming [Docker](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/) are already installed
 ```bash
-docker-compose up
+docker-compose up --detach
 ```
 
 #### Option B: Local
