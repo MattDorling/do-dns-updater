@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - type: bind
+        source: ./config.yml
+        target: /app/config.yml
