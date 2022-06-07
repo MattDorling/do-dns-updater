@@ -8,3 +8,4 @@ services:
       - type: bind
         source: ./config.yml
         target: /app/config.yml
+    restart: always
